@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Rock Paper Scisors" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <!-- Page title -->
+    <h1>Rock Paper Scissors</h1>
+
+    <!-- buttons for number of points to reach -->
+     <!-- hidden after start -->
+    <div id="points">
+        <p>Choose the number of points to reach to win the game</p>
+        <button id="3">3</button>
+        <button id="5">5</button>
+    </div>
+
+    <!-- label for chosen number of points to reach -->
+    <div id="number-points">
+        <p>Number of points to win: <span id="win-points">0</span></p>
+    </div>
+
+    <!-- labels user and comp score  -->
+    <div id="scores">
+        <p>Your score: <span id="user-score">0</span></p>
+        <p>Computer score: <span id="comp-score">0</span></p>
+        <p id="message">Make your move!</p>
+    </div>
+
+    <!-- start button -->
+    <!-- hidden after start -->
+    <div id="start-reset">
+        <button id="start">Start</button>
+        <button id="reset">Reset</button>
+    </div>
+
+    <!-- buttons player choice -->
+     <!-- hidden before start -->
+    <div id="weapons">
+        <button id="rock"><i class="fas fa-hand-back-fist"></i> Rock</button>
+        <button id="paper"><i class="fas fa-hand"></i> Paper</button>
+        <button id="scissors"><i class="fas fa-hand-scissors"></i> Scissors</button>
+      </div>
+    
+    <!-- reset button -->
+    <!-- hidden until game is finished (win-points is reached) -->
+    
+
+  <script src="javascript.js"></script>
+
+</body>
+</html>
